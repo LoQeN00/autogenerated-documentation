@@ -27,8 +27,8 @@ interface ApiOperationBaseArgs {
 export const AppHelloWorlApi = () => {
   return applyDecorators(
     ApiOperationBase({
-      summary: 'Login',
-      descriptionText: 'Logs the user into the system asd asd asd',
+      summary: 'Hello World',
+      descriptionText: 'Hello World endpoint',
     }),
     ApiOkResponse({
       status: 200,
