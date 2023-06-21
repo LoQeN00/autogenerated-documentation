@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "a5e606b9-0c80-476d-b16c-9709c4044c65",
-		"name": "test",
+		"_postman_id": "0cea7b5c-8e52-4d3f-b866-3629641df46d",
+		"name": "asd",
 		"description": "The cats API description",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "10842227-a5e606b9-0c80-476d-b16c-9709c4044c65"
+		"_uid": "10842227-0cea7b5c-8e52-4d3f-b866-3629641df46d"
 	},
 	"item": [
 		{
@@ -12,7 +12,7 @@
 			"item": [
 				{
 					"name": "Login",
-					"id": "5c2afd18-0e08-459b-8e5c-fb44e4fc9c05",
+					"id": "474c33c1-ca8e-48ab-b57b-eed285bf334a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -33,11 +33,11 @@
 								""
 							]
 						},
-						"description": "Logs the user into the system"
+						"description": "Logs the user into the system asd asd"
 					},
 					"response": [
 						{
-							"id": "f8ed0405-ab6a-46ee-beb7-9f6f709b314f",
+							"id": "0cb5ffad-135f-4e2e-87b1-15f8ff9f59cc",
 							"name": "The found record",
 							"originalRequest": {
 								"method": "GET",
@@ -72,12 +72,12 @@
 					]
 				}
 			],
-			"id": "3ab3b84c-a656-4667-aa59-c4551cab714b"
+			"id": "b34d16e4-73b8-4d3c-97cf-1f0b3a8f8312"
 		}
 	],
 	"variable": [
 		{
-			"id": "e324fe35-2bf5-4fd7-8c4b-ae5a8371d974",
+			"id": "5e8ca9b4-d121-4089-8573-fc67a0d377fa",
 			"key": "baseUrl",
 			"value": "/"
 		}
