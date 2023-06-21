@@ -28,7 +28,7 @@ export const AppHelloWorlApi = () => {
   return applyDecorators(
     ApiOperationBase({
       summary: 'Login',
-      descriptionText: 'Logs the user into the system',
+      descriptionText: 'Logs the user into the system asd asd asd',
     }),
     ApiOkResponse({
       status: 200,
