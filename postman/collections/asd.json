@@ -11,7 +11,7 @@
 			"name": "/",
 			"item": [
 				{
-					"name": "Login",
+					"name": "Hello World",
 					"id": "474c33c1-ca8e-48ab-b57b-eed285bf334a",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -79,7 +79,8 @@
 		{
 			"id": "5e8ca9b4-d121-4089-8573-fc67a0d377fa",
 			"key": "baseUrl",
-			"value": "/"
+			"value": "/",
+			"type": "any"
 		}
 	]
 }
