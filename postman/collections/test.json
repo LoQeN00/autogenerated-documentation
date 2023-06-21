@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "a5e606b9-0c80-476d-b16c-9709c4044c65",
+		"name": "test",
+		"description": "The cats API description",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "10842227-a5e606b9-0c80-476d-b16c-9709c4044c65"
+	},
+	"item": [
+		{
+			"name": "/",
+			"item": [
+				{
+					"name": "Login",
+					"id": "5c2afd18-0e08-459b-8e5c-fb44e4fc9c05",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								""
+							]
+						},
+						"description": "Logs the user into the system"
+					},
+					"response": [
+						{
+							"id": "f8ed0405-ab6a-46ee-beb7-9f6f709b314f",
+							"name": "The found record",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "<string>"
+						}
+					]
+				}
+			],
+			"id": "3ab3b84c-a656-4667-aa59-c4551cab714b"
+		}
+	],
+	"variable": [
+		{
+			"id": "e324fe35-2bf5-4fd7-8c4b-ae5a8371d974",
+			"key": "baseUrl",
+			"value": "/"
+		}
+	]
+}
